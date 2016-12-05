@@ -52,6 +52,7 @@ class DatabaseSeeder extends Seeder
 					"url" => $module->name_db,
 					"icon" => $module->fa_icon,
 					"type" => 'module',
+                    "module_id" => $module->id,
 					"parent" => $parent
 				]);
 			}
