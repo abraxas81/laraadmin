@@ -27,4 +27,28 @@ class Menu extends Model
     protected $guarded = [
     
     ];
+
+    /*
+     * added relation to module model
+     */
+    public function module()
+    {
+        return $this->belongsTo(Module::class);
+    }
+
+    /*
+     * self relation to parent
+     */
+    public function parent()
+    {
+        return $this->belongsTo(self::class, 'parent');
+    }
+
+    /*
+    * self relation to children
+    */
+    public function children()
+    {
+        return $this->hasMany(self::class, 'parent')->orderBy('hierarchy', 'asc');
+    }
 }
