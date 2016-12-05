@@ -26,6 +26,7 @@ class CreateMenusTable extends Migration
             $table->string('url', 256);
             $table->string('icon', 50)->default("fa-cube");
             $table->string('type', 20)->default("module");
+            $table->integer('module_id')->unsigned()->default(null);
             $table->integer('parent')->unsigned()->default(0);
             $table->integer('hierarchy')->unsigned()->default(0);
             $table->timestamps();
