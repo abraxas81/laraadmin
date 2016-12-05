@@ -16,11 +16,9 @@
         "yajra/laravel-datatables-oracle": "~6.0",
         "creativeorange/gravatar": "^1.0",
         "doctrine/dbal": "~2.3",
-        "spatie/laravel-backup": "^3.0.0"
+        "spatie/laravel-backup": "^3.0.0",
+        "zizaco/entrust": "dev-master"
     },
-     "require-dev": {
-         "zizaco/entrust": "dev-master"
-     },
      "repositories" : [{
          "type" : "vcs",
          "url" : "https://github.com/abraxas81/entrust"
