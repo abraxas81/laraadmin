@@ -16,9 +16,13 @@
         "yajra/laravel-datatables-oracle": "~6.0",
         "creativeorange/gravatar": "^1.0",
         "doctrine/dbal": "~2.3",
-        "zizaco/entrust": "1.7.0",
+        "zizaco/entrust": "dev-master",
         "spatie/laravel-backup": "^3.0.0"
     },
+     "repositories" : [{
+         "type" : "vcs",
+         "url" : "https://github.com/abraxas81/entrust"
+     }],
     "authors": [
         {
             "name": "Ganesh Bhosale",
