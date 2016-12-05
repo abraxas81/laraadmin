@@ -36,6 +36,15 @@ class Module extends Model
     protected $hidden = [
     
     ];
+
+    /*
+     * Added connection to menu so i can get menu
+     * from existing module ad oposite
+    */
+    public function menu()
+    {
+        return $this->hasOne(Menu::class, 'module_id');
+    }
     
     /**
      * Generates Module Base by taking Module Name and Module FontAwesome Icon
