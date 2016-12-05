@@ -30,6 +30,7 @@ class CreateMenusTable extends Migration
             $table->integer('parent')->unsigned()->default(0);
             $table->integer('hierarchy')->unsigned()->default(0);
             $table->timestamps();
+            $table->foreign('module_id')->references('id')->on('modules')->onUpdate('cascade')->onDelete('cascade');
         });
     }
 
