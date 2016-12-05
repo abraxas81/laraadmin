@@ -16,7 +16,7 @@
         "yajra/laravel-datatables-oracle": "~6.0",
         "creativeorange/gravatar": "^1.0",
         "doctrine/dbal": "~2.3",
-        "zizaco/entrust": "dev-master",
+        "zizaco/entrust": "master",
         "spatie/laravel-backup": "^3.0.0"
     },
      "repositories" : [{
