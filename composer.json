@@ -24,7 +24,7 @@
         "creativeorange/gravatar": "^1.0",
         "doctrine/dbal": "~2.3",
         "spatie/laravel-backup": "^3.0.0",
-        "zizaco/entrust": "dev-master"
+        "zizaco/entrust": "dev-test"
     },
     "authors": [
         {
