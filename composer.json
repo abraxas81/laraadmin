@@ -17,12 +17,8 @@
         "creativeorange/gravatar": "^1.0",
         "doctrine/dbal": "~2.3",
         "spatie/laravel-backup": "^3.0.0",
-        "zizaco/entrust": "dev-master"
+        "abraxas81/entrust": "dev-master"
     },
-     "repositories" : [{
-         "type" : "vcs",
-         "url" : "https://github.com/abraxas81/entrust"
-     }],
     "authors": [
         {
             "name": "Ganesh Bhosale",
