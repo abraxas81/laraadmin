@@ -17,7 +17,7 @@
         "creativeorange/gravatar": "^1.0",
         "doctrine/dbal": "~2.3",
         "spatie/laravel-backup": "^3.0.0",
-        "abraxas81/entrust": "dev-master"
+        "zizaco/entrust": "dev-master"
     },
     "authors": [
         {
@@ -35,5 +35,6 @@
         },
         "files": [
         ]
-    }
+    },
+     "minimum-stability" : "dev"
 }
