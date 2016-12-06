@@ -9,6 +9,13 @@
         "source": "https://github.com/dwijitsolutions/laraadmin"
     },
     "version": "1.0.40",
+    "repositories":
+     [
+         {
+             "type": "vcs",
+             "url": "https://github.com/abraxas81/entrust"
+         }
+     ],
     "require": {
         "illuminate/support": "5.*",
         "laravelcollective/html": "^5.2|^5.1",
